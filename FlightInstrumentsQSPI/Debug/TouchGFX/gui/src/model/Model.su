@@ -1,0 +1,6 @@
+Model.hpp:43:7:void Model::setDegree(float)	16	static
+Model.hpp:51:7:void Model::setPitch(float)	16	static
+Model.hpp:59:7:void Model::setRoll(float)	16	static
+Model.hpp:67:7:void Model::setWind(float)	16	static
+Model.cpp:7:1:Model::Model()	16	static
+Model.cpp:14:6:void Model::tick()	16	static

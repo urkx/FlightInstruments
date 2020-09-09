@@ -1,0 +1,16 @@
+Presenter.hpp:42:18:virtual void touchgfx::Presenter::activate()	16	static
+Presenter.hpp:54:18:virtual void touchgfx::Presenter::deactivate()	16	static
+Presenter.hpp:65:13:touchgfx::Presenter::~Presenter()	16	static
+Presenter.hpp:65:13:virtual touchgfx::Presenter::~Presenter()	16	static
+Presenter.hpp:78:5:touchgfx::Presenter::Presenter()	16	static
+Model.hpp:39:8:float Model::getDegree() const	16	static
+ModelListener.hpp:18:5:ModelListener::ModelListener()	16	static
+ModelListener.hpp:20:13:ModelListener::~ModelListener()	16	static
+ModelListener.hpp:20:13:virtual ModelListener::~ModelListener()	16	static
+ModelListener.hpp:21:18:virtual void ModelListener::updateWidget()	16	static
+direccionPresenter.hpp:29:13:direccionPresenter::~direccionPresenter()	16	static
+direccionPresenter.hpp:29:13:virtual direccionPresenter::~direccionPresenter()	16	static
+direccionPresenter.cpp:4:1:direccionPresenter::direccionPresenter(direccionView&)	16	static
+direccionPresenter.cpp:9:6:virtual void direccionPresenter::activate()	16	static
+direccionPresenter.cpp:14:6:virtual void direccionPresenter::deactivate()	16	static
+direccionPresenter.cpp:19:6:virtual void direccionPresenter::updateWidget()	24	static

@@ -1,0 +1,13 @@
+C:\Users\Usuario\source\repos\Pasarela\bin\Debug\Pasarela.exe.config
+C:\Users\Usuario\source\repos\Pasarela\bin\Debug\Pasarela.exe
+C:\Users\Usuario\source\repos\Pasarela\bin\Debug\Pasarela.pdb
+C:\Users\Usuario\source\repos\Pasarela\obj\Debug\Pasarela.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\Pasarela\obj\Debug\Pasarela.exe
+C:\Users\Usuario\source\repos\Pasarela\obj\Debug\Pasarela.pdb
+C:\Users\urkol\Desktop\Pasarela\bin\Debug\Pasarela.exe.config
+C:\Users\urkol\Desktop\Pasarela\bin\Debug\Pasarela.exe
+C:\Users\urkol\Desktop\Pasarela\bin\Debug\Pasarela.pdb
+C:\Users\urkol\Desktop\Pasarela\obj\Debug\Pasarela.csprojAssemblyReference.cache
+C:\Users\urkol\Desktop\Pasarela\obj\Debug\Pasarela.csproj.CoreCompileInputs.cache
+C:\Users\urkol\Desktop\Pasarela\obj\Debug\Pasarela.exe
+C:\Users\urkol\Desktop\Pasarela\obj\Debug\Pasarela.pdb

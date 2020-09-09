@@ -1,0 +1,30 @@
+core_cm7.h:1896:22:void __NVIC_EnableIRQ(IRQn_Type)	16	static
+core_cm7.h:1932:22:void __NVIC_DisableIRQ(IRQn_Type)	16	static,ignoring_inline_asm
+core_cm7.h:2024:22:void __NVIC_SetPriority(IRQn_Type, uint32_t)	16	static
+HAL.hpp:104:13:touchgfx::HAL::~HAL()	16	static
+HAL.hpp:104:13:virtual touchgfx::HAL::~HAL()	16	static
+HAL.hpp:115:17:static touchgfx::HAL* touchgfx::HAL::getInstance()	4	static
+HAL.hpp:133:18:virtual void touchgfx::HAL::setDisplayOrientation(touchgfx::DisplayOrientation)	16	static
+HAL.hpp:236:10:void touchgfx::HAL::frontPorchEntered()	16	static
+HAL.hpp:296:17:static touchgfx::LCD& touchgfx::HAL::lcd()	4	static
+HAL.hpp:394:28:virtual touchgfx::BlitOperations touchgfx::HAL::getBlitCaps()	16	static
+HAL.hpp:706:10:void touchgfx::HAL::vSync()	16	static
+HAL.hpp:719:18:virtual void touchgfx::HAL::backPorchExited()	16	static
+HAL.hpp:775:18:virtual bool touchgfx::HAL::sampleKey(uint8_t&)	16	static
+HAL.hpp:821:18:virtual void touchgfx::HAL::setFrameBufferStartAddress(void*, uint16_t, bool, bool)	56	static
+HAL.hpp:866:18:virtual void touchgfx::HAL::setFrameBufferStartAddresses(void*, void*, void*)	24	static
+HAL.hpp:1220:18:virtual void touchgfx::HAL::taskDelay(uint16_t)	16	static
+HAL.hpp:1264:21:virtual touchgfx::DMAType touchgfx::HAL::getDMAType()	16	static
+HAL.hpp:1410:18:virtual void touchgfx::HAL::performDisplayOrientationChange()	16	static
+STM32F7HAL.hpp:82:18:virtual void STM32F7HAL::flushFrameBuffer()	16	static
+STM32F7HAL.cpp:18:11:virtual uint16_t* STM32F7HAL::getTFTFrameBuffer() const	16	static
+STM32F7HAL.cpp:23:6:virtual void STM32F7HAL::setTFTFrameBuffer(uint16_t*)	16	static
+STM32F7HAL.cpp:31:10:virtual uint16_t STM32F7HAL::getTFTCurrentLine()	24	static
+STM32F7HAL.cpp:52:6:virtual void STM32F7HAL::configureInterrupts()	16	static
+STM32F7HAL.cpp:63:6:virtual void STM32F7HAL::enableLCDControllerInterrupt()	16	static
+STM32F7HAL.cpp:72:6:virtual void STM32F7HAL::disableInterrupts()	16	static
+STM32F7HAL.cpp:79:6:virtual void STM32F7HAL::enableInterrupts()	16	static
+STM32F7HAL.cpp:86:6:virtual void STM32F7HAL::flushFrameBuffer(const touchgfx::Rect&)	16	static
+STM32F7HAL.cpp:96:6:void HAL_LTDC_LineEventCallback(LTDC_HandleTypeDef*)	16	static
+STM32F7HAL.hpp:17:7:STM32F7HAL::~STM32F7HAL()	16	static
+STM32F7HAL.hpp:17:7:virtual STM32F7HAL::~STM32F7HAL()	16	static

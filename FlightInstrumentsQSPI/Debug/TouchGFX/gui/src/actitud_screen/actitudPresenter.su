@@ -1,0 +1,17 @@
+Presenter.hpp:42:18:virtual void touchgfx::Presenter::activate()	16	static
+Presenter.hpp:54:18:virtual void touchgfx::Presenter::deactivate()	16	static
+Presenter.hpp:65:13:touchgfx::Presenter::~Presenter()	16	static
+Presenter.hpp:65:13:virtual touchgfx::Presenter::~Presenter()	16	static
+Presenter.hpp:78:5:touchgfx::Presenter::Presenter()	16	static
+Model.hpp:47:8:float Model::getPitch() const	16	static
+Model.hpp:55:8:float Model::getRoll() const	16	static
+ModelListener.hpp:18:5:ModelListener::ModelListener()	16	static
+ModelListener.hpp:20:13:ModelListener::~ModelListener()	16	static
+ModelListener.hpp:20:13:virtual ModelListener::~ModelListener()	16	static
+ModelListener.hpp:21:18:virtual void ModelListener::updateWidget()	16	static
+actitudPresenter.hpp:28:13:actitudPresenter::~actitudPresenter()	16	static
+actitudPresenter.hpp:28:13:virtual actitudPresenter::~actitudPresenter()	16	static
+actitudPresenter.cpp:4:1:actitudPresenter::actitudPresenter(actitudView&)	16	static
+actitudPresenter.cpp:9:6:virtual void actitudPresenter::activate()	16	static
+actitudPresenter.cpp:14:6:virtual void actitudPresenter::deactivate()	16	static
+actitudPresenter.cpp:19:6:virtual void actitudPresenter::updateWidget()	32	static

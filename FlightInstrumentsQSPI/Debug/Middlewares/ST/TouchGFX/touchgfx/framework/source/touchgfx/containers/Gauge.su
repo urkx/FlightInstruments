@@ -1,0 +1,82 @@
+Types.hpp:114:5:touchgfx::colortype::colortype(uint32_t)	16	static
+Types.hpp:173:5:touchgfx::Rect::Rect()	16	static
+Types.hpp:193:5:touchgfx::Rect::Rect(int16_t, int16_t, int16_t, int16_t)	24	static
+Types.hpp:215:20:int16_t touchgfx::Rect::right() const	16	static
+Types.hpp:229:20:int16_t touchgfx::Rect::bottom() const	16	static
+Types.hpp:351:10:void touchgfx::Rect::expandToFit(const touchgfx::Rect&)	32	static
+Types.hpp:419:10:bool touchgfx::Rect::isEmpty() const	16	static
+Bitmap.hpp:167:14:touchgfx::Bitmap::Bitmap(touchgfx::BitmapId)	16	static
+Drawable.hpp:60:5:touchgfx::Drawable::Drawable()	24	static
+Drawable.hpp:76:13:touchgfx::Drawable::~Drawable()	16	static
+Drawable.hpp:76:13:virtual touchgfx::Drawable::~Drawable()	16	static
+Drawable.hpp:249:18:virtual void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	24	static
+Drawable.hpp:293:13:int16_t touchgfx::Drawable::getWidth() const	16	static
+Drawable.hpp:307:13:int16_t touchgfx::Drawable::getHeight() const	16	static
+Drawable.hpp:323:18:virtual void touchgfx::Drawable::setX(int16_t)	16	static
+Drawable.hpp:339:18:virtual void touchgfx::Drawable::setY(int16_t)	16	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
+Drawable.hpp:373:18:virtual void touchgfx::Drawable::setWidth(int16_t)	16	static
+Drawable.hpp:389:18:virtual void touchgfx::Drawable::setHeight(int16_t)	16	static
+Drawable.hpp:404:18:virtual void touchgfx::Drawable::childGeometryChanged()	16	static
+Drawable.hpp:416:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	16	static
+Drawable.hpp:428:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	16	static
+Drawable.hpp:440:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	16	static
+Drawable.hpp:453:18:virtual void touchgfx::Drawable::handleTickEvent()	16	static
+Drawable.hpp:500:10:bool touchgfx::Drawable::isVisible() const	16	static
+Drawable.hpp:516:10:bool touchgfx::Drawable::isTouchable() const	16	static
+Drawable.hpp:564:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Drawable.hpp:662:10:void touchgfx::Drawable::resetDrawChainCache()	16	static
+Drawable.hpp:748:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	24	static
+Container.hpp:52:5:touchgfx::Container::Container()	16	static
+Container.hpp:64:13:touchgfx::Container::~Container()	16	static
+Container.hpp:64:13:virtual touchgfx::Container::~Container()	16	static
+Container.hpp:202:22:virtual uint16_t touchgfx::Container::getType() const	16	static
+Widget.hpp:44:5:touchgfx::Widget::Widget()	16	static
+Widget.hpp:53:13:touchgfx::Widget::~Widget()	16	static
+Widget.hpp:53:13:virtual touchgfx::Widget::~Widget()	16	static
+Widget.hpp:74:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	24	static
+Widget.hpp:91:22:virtual uint16_t touchgfx::Widget::getType() const	16	static
+Image.hpp:50:5:touchgfx::Image::Image(const touchgfx::Bitmap&)	16	static
+HAL.hpp:115:17:static touchgfx::HAL* touchgfx::HAL::getInstance()	4	static
+HAL.hpp:296:17:static touchgfx::LCD& touchgfx::HAL::lcd()	4	static
+CWRUtil.hpp:71:9:touchgfx::CWRUtil::Q5::Q5()	16	static
+CWRUtil.hpp:83:18:touchgfx::CWRUtil::Q5::Q5(int)	16	static
+CWRUtil.hpp:107:9:touchgfx::CWRUtil::Q5::operator int() const	16	static
+CanvasWidget.hpp:97:18:virtual void touchgfx::CanvasWidget::setAlpha(uint8_t)	16	static
+CanvasWidget.hpp:111:21:virtual uint8_t touchgfx::CanvasWidget::getAlpha() const	16	static
+AbstractPainterRGB565.hpp:48:13:touchgfx::AbstractPainterRGB565::~AbstractPainterRGB565()	16	static
+AbstractPainterRGB565.hpp:48:13:virtual touchgfx::AbstractPainterRGB565::~AbstractPainterRGB565()	16	static
+Shape.hpp:47:7:touchgfx::Shape<3>::Shape()	24	static
+Gauge.hpp:165:9:Gauge::Needle::Needle()	48	static
+Gauge.hpp:183:9:Gauge::NeedleShadow::NeedleShadow()	48	static
+Color.hpp:54:22:static touchgfx::colortype touchgfx::Color::getColorFrom24BitRGB(uint8_t, uint8_t, uint8_t)	24	static
+Gauge.cpp:6:1:Gauge::Gauge()	40	static
+Gauge.cpp:17:1:Gauge::~Gauge()	16	static
+Gauge.cpp:17:1:virtual Gauge::~Gauge()	16	static
+Gauge.cpp:22:6:void Gauge::setBitmaps(touchgfx::Bitmap)	32	static
+Gauge.cpp:45:6:void Gauge::setLimits(int, int, int, int)	24	static
+Gauge.cpp:59:6:void Gauge::setValue(int)	16	static
+Gauge.cpp:69:5:int Gauge::getValue()	16	static
+Gauge.cpp:74:6:void Gauge::setAnimationDuration(uint16_t)	16	static
+Gauge.cpp:79:6:void Gauge::setEasingEquation(touchgfx::EasingEquation)	16	static
+Gauge.cpp:84:6:virtual void Gauge::handleTickEvent()	16	static
+Shape.hpp:58:13:touchgfx::Shape<POINTS>::~Shape() [with short unsigned int POINTS = 3]	16	static
+Shape.hpp:58:13:touchgfx::Shape<POINTS>::~Shape() [with short unsigned int POINTS = 3]	16	static
+AbstractShape.hpp:147:10:void touchgfx::AbstractShape::setShape(touchgfx::AbstractShape::ShapePoint<T>*) [with T = float]	48	static
+AbstractShape.hpp:200:10:void touchgfx::AbstractShape::setOrigin(T, T) [with T = int]	56	static
+AbstractShape.hpp:332:10:void touchgfx::AbstractShape::updateAngle(T) [with T = int]	56	static
+Gauge.hpp:180:11:Gauge::NeedleShadow::~NeedleShadow()	16	static
+Gauge.hpp:180:11:virtual Gauge::NeedleShadow::~NeedleShadow()	16	static
+Gauge.hpp:162:11:Gauge::Needle::~Needle()	16	static
+Gauge.hpp:162:11:virtual Gauge::Needle::~Needle()	16	static
+Image.hpp:36:7:touchgfx::Image::~Image()	16	static
+Image.hpp:36:7:virtual touchgfx::Image::~Image()	16	static
+PainterRGB565.hpp:35:7:touchgfx::PainterRGB565::~PainterRGB565()	16	static
+PainterRGB565.hpp:35:7:virtual touchgfx::PainterRGB565::~PainterRGB565()	16	static
+Shape.hpp:71:17:int touchgfx::Shape<POINTS>::getNumPoints() const [with short unsigned int POINTS = 3]	16	static
+Shape.hpp:87:18:void touchgfx::Shape<POINTS>::setCorner(int, touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5) [with short unsigned int POINTS = 3]	24	static
+Shape.hpp:106:25:touchgfx::CWRUtil::Q5 touchgfx::Shape<POINTS>::getCornerX(int) const [with short unsigned int POINTS = 3]	24	static
+Shape.hpp:126:25:touchgfx::CWRUtil::Q5 touchgfx::Shape<POINTS>::getCornerY(int) const [with short unsigned int POINTS = 3]	24	static
+Shape.hpp:148:18:void touchgfx::Shape<POINTS>::setCache(int, touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5) [with short unsigned int POINTS = 3]	24	static
+Shape.hpp:167:25:touchgfx::CWRUtil::Q5 touchgfx::Shape<POINTS>::getCacheX(int) const [with short unsigned int POINTS = 3]	24	static
+Shape.hpp:187:25:touchgfx::CWRUtil::Q5 touchgfx::Shape<POINTS>::getCacheY(int) const [with short unsigned int POINTS = 3]	24	static

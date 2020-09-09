@@ -1,0 +1,16 @@
+Presenter.hpp:42:18:virtual void touchgfx::Presenter::activate()	16	static
+Presenter.hpp:54:18:virtual void touchgfx::Presenter::deactivate()	16	static
+Presenter.hpp:65:13:touchgfx::Presenter::~Presenter()	16	static
+Presenter.hpp:65:13:virtual touchgfx::Presenter::~Presenter()	16	static
+Presenter.hpp:78:5:touchgfx::Presenter::Presenter()	16	static
+Model.hpp:63:8:float Model::getWind() const	16	static
+ModelListener.hpp:18:5:ModelListener::ModelListener()	16	static
+ModelListener.hpp:20:13:ModelListener::~ModelListener()	16	static
+ModelListener.hpp:20:13:virtual ModelListener::~ModelListener()	16	static
+ModelListener.hpp:21:18:virtual void ModelListener::updateWidget()	16	static
+anemometroPresenter.hpp:28:13:anemometroPresenter::~anemometroPresenter()	16	static
+anemometroPresenter.hpp:28:13:virtual anemometroPresenter::~anemometroPresenter()	16	static
+anemometroPresenter.cpp:4:1:anemometroPresenter::anemometroPresenter(anemometroView&)	16	static
+anemometroPresenter.cpp:9:6:virtual void anemometroPresenter::activate()	16	static
+anemometroPresenter.cpp:14:6:virtual void anemometroPresenter::deactivate()	16	static
+anemometroPresenter.cpp:19:6:virtual void anemometroPresenter::updateWidget()	24	static
